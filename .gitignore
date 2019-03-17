@@ -1,2 +1,6 @@
 # ignore these files
-!/src
+bin/
+.classpath
+.project
+.settings/
+

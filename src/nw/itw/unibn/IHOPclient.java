@@ -216,7 +216,7 @@ public class IHOPclient {
 		Options options = new Options();
 		options.addOption("gene1",true,"Give the name for the first gene");
 		options.addOption("gene2",true,"Give the name for the second gene");
-		options.addOption("abstract",true,"Boolean, whether to look for abstract level evidence");
+		options.addOption("abstract",true,"Boolean, if true, look for abstract level evidence");
 		options.addOption("h", "help", false, "Print this help info");
 //		parse options
 		CommandLineParser clip = new BasicParser();
